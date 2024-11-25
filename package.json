@@ -1,0 +1,20 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Otabek Tulaganov",
+  "license": "ISC",
+  "dependencies": {
+    "socket": "file:",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
