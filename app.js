@@ -1,6 +1,5 @@
-require('dotenv').config()
 const io = require('socket.io')(8000, {
-  cors: { origin: process.env.BASE_CLIENT_URL, methods: ['GET', 'POST'] },
+  cors: { origin: '*', methods: ['GET', 'POST'] },
 })
 
 let users = []
